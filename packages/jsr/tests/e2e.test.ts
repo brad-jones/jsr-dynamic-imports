@@ -1,5 +1,5 @@
-import { expect } from "@std/expect"
-import { importModule } from "https://raw.githubusercontent.com/brad-jones/jsr-dynamic-imports/refs/heads/master/src/mod.ts";
+import { expect } from "@std/expect";
+import { importModule } from "../src/mod.ts";
 
 Deno.test("importModule - end to end test", async() => {
     const result = await importModule(`${import.meta.dirname}/exampleModule.ts`);
