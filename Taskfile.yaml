@@ -51,7 +51,7 @@ tasks:
     env:
       NPM_CONFIG_USERCONFIG: "{{.ROOT_DIR}}/.npmrc"
     cmds:
-      - cd ./publish/node/package && npm publish --provenance --access public && cd -
+      - cd ./packages/npm/publish/node/package && npm publish --provenance --access public && cd -
       - cd ./packages/jsr && deno publish --allow-dirty && cd -
       - git push && git push --tags
       - cog changelog --at v{{.VERSION}} > GITHUB_CHANGELOG.md
