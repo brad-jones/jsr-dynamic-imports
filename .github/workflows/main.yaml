@@ -31,7 +31,7 @@ jobs:
         run: task init
 
       - name: 🚀 Publish Release
-        run: cog bump --auto
+        run: try-cog-bump.ts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
