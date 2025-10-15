@@ -1,7 +1,7 @@
 {
   "name": "@brad-jones/jsr-dynamic-imports",
   "exports": "./src/mod.ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "publish": {
     "include": [
@@ -10,7 +10,7 @@
     ]
   },
   "imports": {
-    "@brad-jones/jsr-dynamic-imports": "npm:@brad-jones/jsr-dynamic-imports@0.1.1",
+    "@brad-jones/jsr-dynamic-imports": "npm:@brad-jones/jsr-dynamic-imports@0.1.2",
     "@std/expect": "jsr:@std/expect@^1.0.17"
   }
 }

@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.2](https://github.com/brad-jones/jsr-dynamic-imports/compare/fc819ab6521ef3c2979e284c3adfb54161f20e6a..v0.1.2) - 2025-10-15
+#### Documentation
+- added some documentation now that I have confirmed this pattern works - ([fc819ab](https://github.com/brad-jones/jsr-dynamic-imports/commit/fc819ab6521ef3c2979e284c3adfb54161f20e6a)) - [@brad-jones](https://github.com/brad-jones)
+
+- - -
+
 ## [v0.1.1](https://github.com/brad-jones/jsr-dynamic-imports/compare/ded70c67a48f89347f7fdf8a74e260715aec2272..v0.1.1) - 2025-10-15
 #### Continuous Integration
 - try cog script - ([ded70c6](https://github.com/brad-jones/jsr-dynamic-imports/commit/ded70c67a48f89347f7fdf8a74e260715aec2272)) - [@brad-jones](https://github.com/brad-jones)
