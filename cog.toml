@@ -3,7 +3,7 @@
 
 tag_prefix = "v"
 branch_whitelist = ["master"]
-from_latest_tag = true
+from_latest_tag = false
 
 pre_package_bump_hooks = [
   "task package VERSION={{version}}",
