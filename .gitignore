@@ -194,3 +194,5 @@ dist
 
 # dnt package
 packages/npm/publish
+
+packages/jsr/README.md

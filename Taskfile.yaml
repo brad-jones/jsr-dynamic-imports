@@ -24,6 +24,7 @@ tasks:
   lint:
     dir: ./packages/jsr
     cmds:
+      - cp ../../README.md ./README.md
       - deno publish --dry-run --allow-dirty
 
   package:

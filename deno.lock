@@ -27,7 +27,7 @@
     "jsr:@std/text@~1.0.7": "1.0.16",
     "jsr:@ts-morph/bootstrap@0.27": "0.27.0",
     "jsr:@ts-morph/common@0.27": "0.27.0",
-    "npm:@brad-jones/jsr-dynamic-imports@0.0.1": "0.0.1",
+    "npm:@brad-jones/jsr-dynamic-imports@0.1.1": "0.1.1",
     "npm:@types/node@*": "24.2.0"
   },
   "jsr": {
@@ -156,8 +156,8 @@
     }
   },
   "npm": {
-    "@brad-jones/jsr-dynamic-imports@0.0.1": {
-      "integrity": "sha512-TaER6gmQLjTuZjOs607zPYjC5rGIJNwU+qVeE76CsKcLNjZHN/4l/ezqTuttOaCskZhrJU//VoK012gYS04EYg=="
+    "@brad-jones/jsr-dynamic-imports@0.1.1": {
+      "integrity": "sha512-uF/L4kQMmfzy5UpuyuhITdyyejGUJN9ILOOUDHHyunvldfXmW4kpVfsaKth1NNOqD8Zjs+NtrCslETEG9K1CDw=="
     },
     "@types/node@24.2.0": {
       "integrity": "sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==",
@@ -179,7 +179,7 @@
       "packages/jsr": {
         "dependencies": [
           "jsr:@std/expect@^1.0.17",
-          "npm:@brad-jones/jsr-dynamic-imports@0.0.1"
+          "npm:@brad-jones/jsr-dynamic-imports@0.1.1"
         ]
       },
       "packages/npm": {
