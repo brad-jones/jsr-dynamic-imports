@@ -3,13 +3,13 @@
 
 tag_prefix = "v"
 branch_whitelist = ["master"]
-from_latest_tag = false
+from_latest_tag = true
 
-pre_package_bump_hooks = [
+pre_bump_hooks = [
   "task package VERSION={{version}}",
 ]
 
-post_package_bump_hooks = [
+post_bump_hooks = [
   "task publish VERSION={{version}}",
 ]
 
