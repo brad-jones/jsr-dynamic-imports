@@ -1,5 +1,9 @@
 {
   "workspace": [
     "./packages/*"
-  ]
+  ],
+  "imports": {
+    "@david/dax": "jsr:@david/dax@^0.43.2",
+    "@std/async": "jsr:@std/async@^1.0.15"
+  }
 }

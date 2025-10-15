@@ -50,6 +50,7 @@ tasks:
         - VERSION
     cmds:
       - cd ./packages/npm/publish/node/package && npm publish --provenance --access public && cd -
+      - wait-for-npm-package.ts @brad-jones/jsr-dynamic-imports {{.VERSION}}
       - cd ./packages/jsr && deno publish --allow-dirty && cd -
       - git push && git push --tags
       - cog changelog --at v{{.VERSION}} > GITHUB_CHANGELOG.md

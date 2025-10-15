@@ -11,6 +11,9 @@ init = "task init"
 depends-on = ["init"]
 cmd = "code ."
 
+[activation.env]
+PATH = "$PWD/scripts:$PATH"
+
 [dependencies]
 cocogitto = ">=6.3.0,<7"
 deno = ">=2.5.4,<2.6"
